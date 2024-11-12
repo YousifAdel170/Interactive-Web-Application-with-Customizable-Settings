@@ -45,9 +45,40 @@
             <span class="no" data-background="no">No</span>
           </div>
         </div>
+        <div class="option-box">
+          <h4>Bullets Options</h4>
+          <div class="bullets-options">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset</button>
       </div>
     </div>
     <!-- end of settings box -->
+
+    <!-- start of navigation bullets bar -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!-- end of navigation bullets bar -->
 
     <!-- start of landing section -->
     <div class="landing">
@@ -56,16 +87,22 @@
         <div class="logo"><a href="#">Special Design </a></div>
         <ul class="links">
           <li>
-            <a href="#about" class="active">About</a>
+            <a href="#" class="active" data-section=".about-us">About</a>
           </li>
           <li>
-            <a href="#service">Service</a>
+            <a href="#" data-section=".skills">Skills</a>
           </li>
           <li>
-            <a href="#products">Products</a>
+            <a href="#" data-section=".gallery">Gallery</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#" data-section=".timeline">Timeline</a>
+          </li>
+          <li>
+            <a href="#" data-section=".features">Features</a>
+          </li>
+          <li>
+            <a href="#" data-section=".testimonials">Testimonials</a>
           </li>
         </ul>
       </header>
@@ -78,6 +115,229 @@
       </div>
     </div>
     <!-- end of landing section -->
+
+    <!-- start of about us section -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam at
+            neque magni, quaerat nisi ratione aliquam dolorum quod cupiditate
+            est vitae aut sunt? Perspiciatis, suscipit mollitia? Deleniti
+            possimus illum ab.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="./imgs/about-us.jpg" alt="About Us Image" />
+        </div>
+      </div>
+    </div>
+    <!-- end of about us section -->
+
+    <!-- start of our skills section -->
+    <div class="skills">
+      <div class="container">
+        <h2 class="special-heading">Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress"><span data-progress="90%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress"><span data-progress="80%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress"><span data-progress="70%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">C</div>
+          <div class="skill-progress"><span data-progress="90%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Embedded C</div>
+          <div class="skill-progress"><span data-progress="80%"></span></div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">ROS</div>
+          <div class="skill-progress"><span data-progress="70%"></span></div>
+        </div>
+      </div>
+    </div>
+    <!-- end of our skills section -->
+
+    <!-- start of gallery section -->
+    <div class="gallery">
+      <div class="container">
+        <h2 class="special-heading">Our Gallery</h2>
+        <div class="images-box">
+          <img src="./imgs/01.jpg" alt="Image 1" />
+          <img src="./imgs/02.jpg" alt="Image 2" />
+          <img src="./imgs/03.jpg" alt="Image 3" />
+          <img src="./imgs/04.jpg" alt="Image 4" />
+          <img src="./imgs/05.jpg" alt="Image 5" />
+          <img src="./imgs/06.png" alt="Image 6" />
+          <img src="./imgs/07.jpg" alt="Image 7" />
+          <img src="./imgs/08.jpg" alt="Image 8" />
+          <img src="./imgs/09.jpg" alt="Image 9" />
+          <img src="./imgs/10.jpg" alt="Image 10" />
+        </div>
+      </div>
+    </div>
+    <!-- end of gallery section -->
+
+    <!-- start of timeline section -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus voluptatibus nostrum facere unde, doloremque eius
+                blanditiis facilis quisquam incidunt nihil assumenda in ratione
+                beatae et ullam quidem labore magnam ipsam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus voluptatibus nostrum facere unde, doloremque eius
+                blanditiis facilis quisquam incidunt nihil assumenda in ratione
+                beatae et ullam quidem labore magnam ipsam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2016</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus voluptatibus nostrum facere unde, doloremque eius
+                blanditiis facilis quisquam incidunt nihil assumenda in ratione
+                beatae et ullam quidem labore magnam ipsam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus voluptatibus nostrum facere unde, doloremque eius
+                blanditiis facilis quisquam incidunt nihil assumenda in ratione
+                beatae et ullam quidem labore magnam ipsam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus voluptatibus nostrum facere unde, doloremque eius
+                blanditiis facilis quisquam incidunt nihil assumenda in ratione
+                beatae et ullam quidem labore magnam ipsam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- end of timeline section -->
+
+    <!-- start of features section -->
+    <div class="features">
+      <div class="container">
+        <h2 class="special-heading">Our Features</h2>
+        <div class="feat-box">
+          <img src="./imgs/Icon_01.png" alt="Feature 1" />
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/Icon_02.png" alt="Feature 2" />
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/Icon_03.png" alt="Feature 3" />
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/Icon_04.png" alt="Feature 4" />
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/Icon_05.png" alt="Feature 5" />
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,</p>
+        </div>
+        <div class="feat-box">
+          <img src="./imgs/Icon_06.png" alt="Feature 6" />
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- end of features section -->
+
+    <!-- start of testimonials section -->
+    <div class="testimonials">
+      <div class="container">
+        <h2 class="special-heading">Testimonials</h2>
+        <div class="testimonials-box">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="info">
+            <img
+              src="https://placehold.it/80/DDD"
+              alt="Image 80x80 with color #ddd"
+            />
+            <h4>Ahmed Mosaad</h4>
+            <p>Ceo At Company</p>
+          </div>
+        </div>
+        <div class="testimonials-box">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="info">
+            <img
+              src="https://placehold.it/80/EEE"
+              alt="Image 80x80 with color #EEE"
+            />
+            <h4>Mohamed Ibrahim</h4>
+            <p>Ceo At Company</p>
+          </div>
+        </div>
+        <div class="testimonials-box">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="info">
+            <img
+              src="https://placehold.it/80/EEE"
+              alt="Image 80x80 with color #EEE"
+            />
+            <h4>Sherief Ashraf</h4>
+            <p>Ceo At Company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- end of testimonials section -->
 
     <!-- Add Js File -->
     <script src="./js/master.js"></script>
