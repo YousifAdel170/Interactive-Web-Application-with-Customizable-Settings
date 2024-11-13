@@ -4,7 +4,7 @@ This project is a feature-rich web application designed with an interactive and 
 
 ## Project Demo
 
-https://yousifadel170.github.io/Special-Design-HTML5-CSS3-JS/
+https://yousifadel170.github.io/Interactive-Web-Application-with-Customizable-Settings/
 
 ## Features
 
