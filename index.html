@@ -83,29 +83,38 @@
     <!-- start of landing section -->
     <div class="landing">
       <div class="overlay"></div>
-      <header>
-        <div class="logo"><a href="#">Special Design </a></div>
-        <ul class="links">
-          <li>
-            <a href="#" class="active" data-section=".about-us">About</a>
-          </li>
-          <li>
-            <a href="#" data-section=".skills">Skills</a>
-          </li>
-          <li>
-            <a href="#" data-section=".gallery">Gallery</a>
-          </li>
-          <li>
-            <a href="#" data-section=".timeline">Timeline</a>
-          </li>
-          <li>
-            <a href="#" data-section=".features">Features</a>
-          </li>
-          <li>
-            <a href="#" data-section=".testimonials">Testimonials</a>
-          </li>
-        </ul>
-      </header>
+      <div class="container">
+        <header>
+          <div class="logo"><a href="#">Special Design </a></div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#" class="active" data-section=".about-us">About</a>
+              </li>
+              <li>
+                <a href="#" data-section=".skills">Skills</a>
+              </li>
+              <li>
+                <a href="#" data-section=".gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="#" data-section=".timeline">Timeline</a>
+              </li>
+              <li>
+                <a href="#" data-section=".features">Features</a>
+              </li>
+              <li>
+                <a href="#" data-section=".testimonials">Testimonials</a>
+              </li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </header>
+      </div>
       <div class="intro-text">
         <h1>We are <span>Creative</span> Agency</h1>
         <p>
@@ -338,6 +347,31 @@
       <div class="clearfix"></div>
     </div>
     <!-- end of testimonials section -->
+
+    <!-- start of contact us section -->
+    <div class="contact-us">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2 class="special-heading">Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" name="username" placeholder="Your Name" />
+            <input type="tel" name="phone" placeholder="Your Phone" />
+            <input type="email" name="email" placeholder="Your Email" />
+            <input type="text" name="subject" placeholder="Your Subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end of contact us section -->
+
+    <!-- start of footer section -->
+    <footer>&copy; 2024 Special Design Made By Yousif Adel</footer>
+    <!-- end of footer section -->
 
     <!-- Add Js File -->
     <script src="./js/master.js"></script>

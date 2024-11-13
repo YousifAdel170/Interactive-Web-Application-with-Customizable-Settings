@@ -343,3 +343,41 @@ function handleActiveClass(event) {
   event.target.classList.add("active");
 }
 /* end of creating Generic Functions */
+
+/* start of menu toggle logic */
+
+// get the toggle menu
+let toggleButton = document.querySelector(".toggle-menu");
+let links = document.querySelector(".links-container .links");
+
+// check if the button has been clicked
+toggleButton.onclick = function (e) {
+  // Stop Propagation
+  e.stopPropagation();
+  // toggle the class 'menu-active' on the button
+  this.classList.toggle("menu-active");
+
+  // toggle the class 'open' on the links
+  links.classList.toggle("open");
+};
+
+// click anywhere outside menu and the toggle button
+document.addEventListener("click", (e) => {
+  if (e.target !== toggleButton && e.target !== links) {
+    // check if the menu is opened
+    if (links.classList.contains("open")) {
+      // toggle the class 'menu-active' on the button
+      toggleButton.classList.toggle("menu-active");
+
+      // toggle the class 'open' on the links
+      links.classList.toggle("open");
+    }
+  }
+});
+
+// stop propagation on menu
+links.onclick = function (e) {
+  e.stopPropagation();
+};
+
+/* end of menu toggle logic */
