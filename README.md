@@ -123,6 +123,4 @@ cd Interactive-Web-Application-with-Customizable-Settings
 
 ### 1. Add more customization options.
 
-### 2. Enhancing responsiveness for better mobile support.
-
-### 3. Implementing a dark mode toggle.
+### 2. Implementing a dark mode toggle.
